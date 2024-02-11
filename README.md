@@ -6,6 +6,13 @@ compgen -c | fzf | xargs man
 ```sh
 alias <name>="compgen -c | fzf | xargs man"
 ```
+- to make to available on new terminal sessions
+``` sh
+nvim ~/.zshrc
+```
+
+![image](https://github.com/KRIISHSHARMA/man-commands/assets/86760658/c0da7753-f947-4ed3-ad76-043ca0bcfad1)
+
 
 # install fzf [command-line fuzzy finder](https://github.com/junegunn/fzf?tab=readme-ov-file#installation)
 ``` sh
