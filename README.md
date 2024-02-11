@@ -2,6 +2,11 @@
 ```sh
 compgen -c | fzf | xargs man
 ```
+- or creat an alias for the same
+```sh
+alias <name>="compgen -c | fzf | xargs man"
+```
+
 # install fzf [command-line fuzzy finder](https://github.com/junegunn/fzf?tab=readme-ov-file#installation)
 ``` sh
 sudo apt install fzf
